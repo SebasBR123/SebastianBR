@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-3" value="Preparación de Insumos" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="260" y="360" width="2020" height="390" as="geometry">
+          <mxGeometry x="240" y="370" width="2910" height="390" as="geometry">
             <mxRectangle x="360" y="570" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -55,16 +55,32 @@
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-20" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Revisamos los correos con las declaraciones de delegación de los agentes, se usa el codigo &quot;Reactiva.py&quot; y se guarda la información en una carpeta &quot;Delegaciones&quot;. En base al formato de la semana pasada de evaluación se construye las delegación de la semana en evaluación&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-19">
           <mxGeometry x="10" y="30" width="350" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Uso de la macro &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="485" width="370" height="235" as="geometry">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="1790" y="82.5" width="370" height="235" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-24">
+          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Uso de la macro &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="1390" y="82.5" width="370" height="235" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-21">
           <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X71FGkDf6fn_2zIbJ8EK-20" target="X71FGkDf6fn_2zIbJ8EK-21">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="X71FGkDf6fn_2zIbJ8EK-20" target="X71FGkDf6fn_2zIbJ8EK-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-26" value="6.DataUnid" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="2180" y="82.5" width="370" height="235" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-27" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-26">
+          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
