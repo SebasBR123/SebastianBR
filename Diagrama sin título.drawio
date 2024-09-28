@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1235" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,18 +13,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-3" value="Preparación de Insumos" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="240" y="370" width="2620" height="500" as="geometry">
+          <mxGeometry x="190" y="270" width="2620" height="1280" as="geometry">
             <mxRectangle x="360" y="570" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="X71FGkDf6fn_2zIbJ8EK-9" target="hybQcctw-D88qzmDJWD1-24">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
+          <mxGeometry x="2160" y="140" width="370" height="235" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-24" vertex="1">
+          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Uso de la macro &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
+          <mxGeometry x="470" y="617.5" width="370" height="100" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creamos las carpetas en l a ruta de la evaluación semanal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-21" vertex="1">
+          <mxGeometry x="10" y="30" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-26" value="6.DataUnid" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
+          <mxGeometry x="2200" y="550" width="370" height="235" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-27" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-26" vertex="1">
+          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-32" value="Carpeta Datos" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="40" y="120" width="1330" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-32" source="X71FGkDf6fn_2zIbJ8EK-9" target="hybQcctw-D88qzmDJWD1-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="X71FGkDf6fn_2zIbJ8EK-9" target="hybQcctw-D88qzmDJWD1-5">
+        <mxCell id="hybQcctw-D88qzmDJWD1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-32" source="X71FGkDf6fn_2zIbJ8EK-9" target="hybQcctw-D88qzmDJWD1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-9" value="1. Corremos el Código &quot;PR_21.py&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="50" y="70" width="370" height="230" as="geometry">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-9" value="1. Corremos el Código &quot;PR_21.py&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="hybQcctw-D88qzmDJWD1-32" vertex="1">
+          <mxGeometry x="90" y="60" width="370" height="230" as="geometry">
             <mxRectangle x="50" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -34,65 +61,44 @@
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-12" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Output:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;7 libros &quot;&lt;i&gt;CumplimientoRPF_DDMM.xlsx&lt;/i&gt;&quot;. Estos contienen los datos de frecuencia y potencia de cada día por segundo de las unidades o centrales.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;7 libros &quot;&lt;i&gt;Día_DD_MM_AAAA.xslx&lt;/i&gt;&quot;. Estos contienen los codigos de medidores de las unidades o centrales presentes en &quot;&lt;i&gt;CumplimientoRPF_DDMM.xlsx&lt;/i&gt;&quot;.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;7 libros &quot;&lt;i&gt;FrecuenciasRPF_DDMM.xlsx&lt;/i&gt;&quot;. Estos contienen las frecuencias cada segundo de San Juan.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-9" vertex="1">
           <mxGeometry x="10" y="70" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-15" value="2. Libros &quot;Data_AGC_DDMM.xslx&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="470" y="105" width="370" height="150" as="geometry">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-15" value="2. Libros &quot;Data_AGC_DDMM.xslx&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="hybQcctw-D88qzmDJWD1-32" vertex="1">
+          <mxGeometry x="510" y="90" width="370" height="150" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- En el modulo intranet de &quot;Factores de Utilización&quot; verificamos que el tipo de proceso para la semana en evaluación esten en &quot;Manual&quot;.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Luego en el modulo intratet de &quot;Validar Información AGC&quot; en &quot;Exportar Kumply&quot; descargamos la información de las urs (excepto de ventanilla ENL-005) para cada día de la semana en evaluación.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-15" vertex="1">
           <mxGeometry x="10" y="30" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-19" value="3. Archivo &quot;Delegaciones.csv&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="890" y="105" width="370" height="120" as="geometry">
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-19" value="3. Archivo &quot;Delegaciones.csv&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="hybQcctw-D88qzmDJWD1-32" vertex="1">
+          <mxGeometry x="920" y="30" width="370" height="120" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-20" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Revisamos los correos con las declaraciones de delegación de los agentes, se usa el codigo &quot;Reactiva.py&quot; y se guarda la información en una carpeta &quot;Delegaciones&quot;. En base al formato de la semana pasada de evaluación se construye las delegación de la semana en evaluación&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-19" vertex="1">
           <mxGeometry x="10" y="30" width="350" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="1790" y="82.5" width="370" height="235" as="geometry">
-            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-5" value="CumplimientoRPF_bruto" style="ellipse;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
+          <mxGeometry x="130" y="370" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-24" value="FrecuenciasSanJuan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
+          <mxGeometry x="310" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-28" value="Información AGC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
+          <mxGeometry x="635" y="302.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-32" source="X71FGkDf6fn_2zIbJ8EK-17" target="hybQcctw-D88qzmDJWD1-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-24" vertex="1">
-          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-30" value="Delegaciones" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
+          <mxGeometry x="1030" y="315" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Uso de la macro &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="1390" y="82.5" width="370" height="235" as="geometry">
-            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-22" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-21" vertex="1">
-          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="X71FGkDf6fn_2zIbJ8EK-3" source="X71FGkDf6fn_2zIbJ8EK-20" target="X71FGkDf6fn_2zIbJ8EK-21" edge="1">
+        <mxCell id="hybQcctw-D88qzmDJWD1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-32" source="X71FGkDf6fn_2zIbJ8EK-20" target="hybQcctw-D88qzmDJWD1-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-26" value="6.DataUnid" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="2180" y="82.5" width="370" height="235" as="geometry">
-            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-27" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-26" vertex="1">
-          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-5" value="CumplimientoRPF" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="90" y="380" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-24" value="FrecuenciasSanJuan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="270" y="380" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-28" value="Información AGC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="595" y="317.5" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="X71FGkDf6fn_2zIbJ8EK-17" target="hybQcctw-D88qzmDJWD1-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-30" value="Delegaciones" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="1060" y="300" width="120" height="80" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-33" value="Carpeta Data Entrada Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="130" y="900" width="610" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
