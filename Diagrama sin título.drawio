@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1235" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,17 +13,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-3" value="Preparación de Insumos" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="200" y="230" width="3420" height="1860" as="geometry">
+          <mxGeometry x="198" y="230" width="4520" height="1860" as="geometry">
             <mxRectangle x="360" y="570" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="2160" y="140" width="370" height="235" as="geometry">
-            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-24" vertex="1">
-          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Primer uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
           <mxGeometry x="300" y="630" width="370" height="100" as="geometry">
@@ -92,16 +84,16 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-33" value="Carpeta Data Entrada Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
           <mxGeometry x="110" y="780" width="1300" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-82" target="hybQcctw-D88qzmDJWD1-94">
+        <mxCell id="hybQcctw-D88qzmDJWD1-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-82" target="hybQcctw-D88qzmDJWD1-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-82" value="5. Segundo uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="270" y="95" width="370" height="95" as="geometry">
+          <mxGeometry x="270" y="95" width="300" height="95" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-83" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Usamos la macro de la hoja &quot;Envio_PF&quot;, ruteamos en la carpeta donde nos encontramos en &quot;Data_PF&quot;.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-82">
-          <mxGeometry x="10" y="30" width="350" height="50" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-83" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Usamos la macro de la hoja &quot;Envio_PF&quot;, ruteamos en la carpeta donde nos encontramos en &quot;Data_PF&quot;.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-82">
+          <mxGeometry x="10" y="30" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-85" target="hybQcctw-D88qzmDJWD1-82">
           <mxGeometry relative="1" as="geometry" />
@@ -109,17 +101,20 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-85" value="DE_SGO.xlsx" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
           <mxGeometry x="70" y="157.5" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-89" target="hybQcctw-D88qzmDJWD1-82">
+        <mxCell id="hybQcctw-D88qzmDJWD1-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-89" target="hybQcctw-D88qzmDJWD1-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-89" value="CumplimientoRPF_bruto" style="ellipse;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="40" y="30" width="150" height="80" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-89" target="hybQcctw-D88qzmDJWD1-270">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-94" value="Resumen_Resultado.xlsx" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="720" y="30" width="160" height="95" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-89" value="CumplimientoRPF_bruto" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="40" y="30" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-96" value="RPF_Despacho_Ejecutado_DDMM.xlsx" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="680" y="170" width="240" height="90" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-94" value="Resumen_Resultado.xlsx" style="rectangule;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="610" y="95" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-96" value="RPF_Despacho_Ejecutado_DDMM.xlsx" style="rectangule;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="610" y="150" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-82" target="hybQcctw-D88qzmDJWD1-96">
           <mxGeometry relative="1" as="geometry" />
@@ -139,10 +134,13 @@
           <mxGeometry x="320" y="315" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-101" value="Delegaciones" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="1140" y="37.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="1140" y="15" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-102" value="Información AGC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
-          <mxGeometry x="960" y="45" width="120" height="80" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-102" target="hybQcctw-D88qzmDJWD1-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-102" value="Información AGC" style="rectangule;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="965" y="28" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-106" target="hybQcctw-D88qzmDJWD1-151">
           <mxGeometry relative="1" as="geometry" />
@@ -158,12 +156,39 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-151" value="Lista_URS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
           <mxGeometry x="310" y="420" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-28" target="hybQcctw-D88qzmDJWD1-102">
+        <mxCell id="hybQcctw-D88qzmDJWD1-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-270">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="952" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-270" value="9. Cuarto uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="890" y="130" width="270" height="80" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-271" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Usamos el Boton &quot;Potencia/Frecuencia&quot; y &quot;DataAGC&quot; para obtener de los archivos principales solo información de CDA&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-270">
+          <mxGeometry x="5" y="27.5" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" target="hybQcctw-D88qzmDJWD1-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="-290" as="sourcePoint" />
+            <mxPoint x="1022" y="15.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="735" y="670" />
-              <mxPoint x="1130" y="670" />
+              <mxPoint x="631" y="-122" />
+              <mxPoint x="1026" y="-122" />
+              <mxPoint x="1026" y="28" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-274" value="CumplimientoRPF_CDA" style="rectangule;html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="872" y="242.5" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-275" value="Información AGC _CDA" style="rectangule;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="1052" y="245" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" target="hybQcctw-D88qzmDJWD1-275">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-30" target="hybQcctw-D88qzmDJWD1-101">
@@ -177,55 +202,163 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-5" target="hybQcctw-D88qzmDJWD1-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-153" value="5. Tercer uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="1600" y="920" width="370" height="95" as="geometry">
+        <mxCell id="hybQcctw-D88qzmDJWD1-153" value="8. Tercer uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="1510" y="440" width="250" height="80" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-154" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Usamos la macro de la hoja &quot;Envio_PF&quot;, ruteamos en la carpeta donde nos encontramos en &quot;Data_PF&quot;.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-153">
-          <mxGeometry x="10" y="30" width="350" height="50" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-154" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Usamos la macro &quot;Formato BESS&quot;.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-153">
+          <mxGeometry y="30" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-155" value="Carpeta BESS" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="2040" y="600" width="1170" height="1260" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-156" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="40" width="930" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-213" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-156">
-          <mxGeometry x="150" y="40" width="780" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-214" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Genera el archivo Data_PF_DDMM.csv que contiene solo información de Potencia y Frecuencia de la BESS y la central asociada a ella&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-213">
-          <mxGeometry x="15" y="50" width="750" height="30" as="geometry" />
+          <mxGeometry x="1830" y="120" width="630" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-206" value="Carpeta Yarucaya" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="270" width="390" height="200" as="geometry" />
+          <mxGeometry x="110" y="260" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-218" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-206">
+          <mxGeometry x="30" y="7.5" width="252.5" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-219" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-218">
+          <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-220" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se genera los archivos Data_PF_DDMM.csvque contiene información de Potencia y Frecuencia de la BESS y de la central asociada a ella. Esta se genera fuera de estas carpeta, asi mismo se le debe colocar la tensión en bornes a los archivos generados&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-218">
+          <mxGeometry x="7.5" y="25" width="232.5" height="105" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-207" value="Carpeta Chilca 1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="510" width="390" height="200" as="geometry" />
+          <mxGeometry x="110" y="460" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-222" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-207">
+          <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-223" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-222">
+          <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-224" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se genera los archivos Data_PF_DDMM.csvque contiene información de Potencia y Frecuencia de la BESS y de la central asociada a ella.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-222">
+          <mxGeometry x="7.5" y="25" width="232.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-208" value="Carpeta 8 de agosto" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="760" width="390" height="200" as="geometry" />
+          <mxGeometry x="110" y="680" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-225" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-208">
+          <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-226" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-225">
+          <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-227" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se genera los archivos Data_PF_DDMM.csvque contiene información de Potencia y Frecuencia de la BESS y de la central asociada a ella.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-225">
+          <mxGeometry x="7.5" y="25" width="232.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-209" value="Carpeta 8 de Kallpa" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="1020" width="390" height="200" as="geometry" />
+          <mxGeometry x="110" y="910" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-231" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-209">
+          <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-232" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-231">
+          <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-233" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se genera los archivos Data_PF_DDMM.csvque contiene información de Potencia y Frecuencia de la BESS y de la central asociada a ella.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-231">
+          <mxGeometry x="7.5" y="25" width="232.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-210" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="1134.5714750744048" as="sourcePoint" />
+            <mxPoint x="50" y="1030" as="sourcePoint" />
             <mxPoint x="50" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-212" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155">
+        <mxCell id="hybQcctw-D88qzmDJWD1-212" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155" target="hybQcctw-D88qzmDJWD1-216">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="140" as="sourcePoint" />
             <mxPoint x="200" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-235" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155" target="hybQcctw-D88qzmDJWD1-225">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="770" as="sourcePoint" />
+            <mxPoint x="100" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-236" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155" target="hybQcctw-D88qzmDJWD1-222">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="530" as="sourcePoint" />
+            <mxPoint x="100" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-237" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155" target="hybQcctw-D88qzmDJWD1-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="370" as="sourcePoint" />
+            <mxPoint x="110" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-211" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-153">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2000" y="980" as="sourcePoint" />
-            <mxPoint x="2090" y="968" as="targetPoint" />
+            <mxPoint x="1790" y="500" as="sourcePoint" />
+            <mxPoint x="1880" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-156" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="1940" y="170" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-213" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-156">
+          <mxGeometry x="30" y="20" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-214" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-213">
+          <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-216" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se genera los archivos Data_PF_DDMM.csvque contiene información de Potencia y Frecuencia de la BESS y de la central asociada a ella&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-213">
+          <mxGeometry x="7.5" y="25" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-234" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" target="hybQcctw-D88qzmDJWD1-231">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="1150" as="sourcePoint" />
+            <mxPoint x="2100" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-240" value="Carpeta CDA" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry x="110" y="1390" width="630" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-278" value="CumplimientoRPF_CDA" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-240">
+          <mxGeometry x="62" y="30" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-279" value="Información AGC _CDA" style="rectangule;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-240">
+          <mxGeometry x="242" y="32.5" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-282" value="DataUnid_CDA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-240">
+          <mxGeometry x="52" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-262" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2800" y="470" as="sourcePoint" />
+            <mxPoint x="2920" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-274" target="hybQcctw-D88qzmDJWD1-278">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="1042" />
+              <mxPoint x="592" y="1340" />
+              <mxPoint x="247" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-275" target="hybQcctw-D88qzmDJWD1-279">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1231" y="1080" />
+              <mxPoint x="652" y="1080" />
+              <mxPoint x="652" y="1370" />
+              <mxPoint x="421" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3780" y="490" width="370" height="235" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-24" vertex="1">
+          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
