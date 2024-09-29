@@ -318,10 +318,10 @@
           <mxGeometry y="30" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-155" value="Carpeta BESS" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="2147" y="120" width="630" height="1190" as="geometry" />
+          <mxGeometry x="2147" y="120" width="723" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-206" value="Carpeta Yarucaya" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="260" width="450" height="180" as="geometry" />
+          <mxGeometry x="110" y="260" width="560" height="180" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-218" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-206">
           <mxGeometry x="30" y="7.5" width="252.5" height="132.5" as="geometry" />
@@ -333,7 +333,7 @@
           <mxGeometry x="7.5" y="25" width="232.5" height="105" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-207" value="Carpeta Chilca 1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="460" width="450" height="200" as="geometry" />
+          <mxGeometry x="110" y="460" width="560" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-222" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-207">
           <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
@@ -345,7 +345,7 @@
           <mxGeometry x="7.5" y="25" width="232.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-208" value="Carpeta 8 de agosto" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="680" width="450" height="200" as="geometry" />
+          <mxGeometry x="110" y="680" width="560" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-225" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-208">
           <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
@@ -357,7 +357,7 @@
           <mxGeometry x="7.5" y="25" width="232.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-209" value="Carpeta 8 de Kallpa" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-155">
-          <mxGeometry x="110" y="910" width="450" height="230" as="geometry" />
+          <mxGeometry x="110" y="910" width="560" height="230" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-231" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-209">
           <mxGeometry x="30" y="10" width="252.5" height="90" as="geometry" />
@@ -394,7 +394,7 @@
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-237" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-155" target="hybQcctw-D88qzmDJWD1-218">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="370" as="sourcePoint" />
+            <mxPoint x="53" y="350" as="sourcePoint" />
             <mxPoint x="110" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -405,10 +405,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-156" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="2257" y="170" width="450" height="200" as="geometry" />
+          <mxGeometry x="2257" y="170" width="563" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-213" value="Carpeta Base, Media y Punta" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-156">
-          <mxGeometry x="30" y="20" width="215" height="100" as="geometry" />
+          <mxGeometry x="43" y="30" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-214" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hybQcctw-D88qzmDJWD1-213">
           <mxGeometry x="230" y="70" width="20" height="30" as="geometry" />
@@ -567,7 +567,7 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-654" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-619" source="hybQcctw-D88qzmDJWD1-633" target="hybQcctw-D88qzmDJWD1-647">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-633" value="17. Se ejecutan los 7 scripts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-619">
+        <mxCell id="hybQcctw-D88qzmDJWD1-633" value="&lt;b&gt;17. Se ejecutan los 7 scripts&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-619">
           <mxGeometry x="980" y="395" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-635" value="Carpeta Resultados Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-619">
@@ -598,6 +598,89 @@
           <mxGeometry x="41" y="40" width="333" height="85" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-648" value="Son graficos que muestran la curva de la estimación de de parametros y la prueba escalon realizada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-647">
+          <mxGeometry x="54" y="35" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-655" value="Corridas Kumpliy BESS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1930" width="1850" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-656" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-657" target="hybQcctw-D88qzmDJWD1-671">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-657" value="16. Revisión de Script Matlab" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
+          <mxGeometry x="120" y="90" width="740" height="670" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-658" value="&lt;div style=&quot;text-align: justify;&quot;&gt;En el servidor, abrimos el matlab y abrimos el directorio: &quot;Alessandro/Modelo_2021v8_&quot;, aqui es donde reviamos los codigo en matlab en el siquiente orden:&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="32" y="30" width="668" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-659" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-660" target="hybQcctw-D88qzmDJWD1-663">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-660" value="Busca_Periodo.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="130" y="90" width="480" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-661" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;En este script nos fijamos que en la sección comentada de &quot;%filtros&quot; el blucle for recorra todos los periodos (&quot;1:3&quot;) y que en cada bloque horario el rango de segundos sea el normal (es decir, la duración normal de cada bloque horario) y no este truncado a un valor especifico.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-660">
+          <mxGeometry x="40" y="20" width="425" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-662" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-663" target="hybQcctw-D88qzmDJWD1-665">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-663" value="Variable.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="210" y="260" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-664" value="Nos fijamos si las constantes del generador sean los establecidos en el Procedimiento PR 21. Así como su tiempo de aporte." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-663">
+          <mxGeometry x="45" y="20" width="255" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-665" value="Evaluación_Cumplimiento_RPF_main3-9.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="130" y="390" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-666" value="&lt;ul&gt;&lt;li&gt;En los 7 script&#39;s ruteamos la carpeta del fs donde se está realizando la evaluación semanal.&lt;/li&gt;&lt;li&gt;En cada script fijamos un día diferente hasta completar los 7 días (dia1,dia2,dia3,.., dia7) y fijamos el mes en la que se está realizando la evaluación.&lt;/li&gt;&lt;li&gt;Luego nos fijamos que en cada scipt esté configurado &quot;Opcion_ruta=1;&quot; para que lea e imprimia los resultados en las carpetas correpondientes.&lt;/li&gt;&lt;li&gt;También nos fijamos que en la parte de &quot;%% Lectura de Información y consistencia&quot; los nombres de los archivos que va leer esten correctos (va a leer de &quot;1. Data Entrada Matlab&quot;).&lt;/li&gt;&lt;li&gt;Finalmente nos fijamos que en &quot;% Filtros y Evaluación&quot; esten seleccionados todos los bloques horarios (&quot;1:3&quot;).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-665">
+          <mxGeometry x="30" y="10" width="440" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-667" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-671" target="hybQcctw-D88qzmDJWD1-675">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-668" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-671" target="hybQcctw-D88qzmDJWD1-673">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-669" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-671" target="hybQcctw-D88qzmDJWD1-677">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-670" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-671" target="hybQcctw-D88qzmDJWD1-680">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-671" value="&lt;b&gt;17. Se ejecutan los 7 scripts&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
+          <mxGeometry x="980" y="395" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-672" value="Carpeta Resultados Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
+          <mxGeometry x="1260" y="250" width="510" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-673" value="Libros_AGC_DDMM_B.csv" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-672">
+          <mxGeometry x="137" y="25" width="333" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-674" value="Contiene los periodos elejgidos por los filtros del Kumpliy de las urs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-673">
+          <mxGeometry x="55" y="27.5" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-675" value="Libros_RPF_DDMM_B.csv" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-672">
+          <mxGeometry x="142" y="138" width="333" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-676" value="Contiene los periodos elejgidos por los filtros del Kumpliy de las centrales o unidades" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-675">
+          <mxGeometry x="44" y="35" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-677" value="Resultados_DDMM_B.csv" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-672">
+          <mxGeometry x="142" y="240" width="333" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-678" value="Contiene los resultados de la estimación dle modelo de primero orden y de la prueba escalon de frecuencia realizada." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-677">
+          <mxGeometry x="34" y="35" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-679" value="Carpeta Graficos Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
+          <mxGeometry x="1315" y="630" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-680" value="DDMM_CODIGO_B.png" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-679">
+          <mxGeometry x="41" y="40" width="333" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-681" value="Son graficos que muestran la curva de la estimación de de parametros y la prueba escalon realizada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-680">
           <mxGeometry x="54" y="35" width="225" height="30" as="geometry" />
         </mxCell>
       </root>
