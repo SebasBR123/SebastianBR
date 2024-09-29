@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="2625" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1336,10 +1336,10 @@
           <mxGeometry x="502" y="20" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-992" value="Corridas Modelos Propios" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3920" y="1100" width="2100" height="1050" as="geometry" />
+          <mxGeometry x="3330" y="1955" width="3130" height="930" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-1019" value="24. Corrida de Script Modelo ELECTROPERU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-992">
-          <mxGeometry x="55" y="50" width="885" height="960" as="geometry">
+          <mxGeometry x="55" y="50" width="885" height="820" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1417,6 +1417,185 @@
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-1077" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Revisamos los parametros de los generadores según el PR 21 y las potencias efectivas&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1076">
           <mxGeometry x="55" y="10" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1079" value="25. Corrida de Script Modelo LA VIRGEN" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-992">
+          <mxGeometry x="980" y="50" width="1030" height="710" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1080" value="&lt;div style=&quot;text-align: justify;&quot;&gt;En el servidor, abrimos el matlab y abrimos el directorio: &quot;PR-21_Actual/modelo_2023_La_Virgen&quot;, aqui es donde revisamos los codigo en matlab en el siquiente orden:&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1079">
+          <mxGeometry x="32" y="30" width="968" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1079" source="hybQcctw-D88qzmDJWD1-1101" target="hybQcctw-D88qzmDJWD1-1103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1101" value="Busca_Periodo.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1079">
+          <mxGeometry x="51" y="100" width="489" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1102" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;En este script nos fijamos que en la sección comentada de &quot;%filtros&quot; el blucle for recorra todos los periodos (&quot;1:3&quot;) y que en cada bloque horario el rango de segundos sea el normal (es decir, la duración normal de cada bloque horario) y no este truncado a un valor especifico.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1101">
+          <mxGeometry x="40" y="20" width="425" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1079" source="hybQcctw-D88qzmDJWD1-1105" target="hybQcctw-D88qzmDJWD1-1120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1079" source="hybQcctw-D88qzmDJWD1-1105" target="hybQcctw-D88qzmDJWD1-1119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1079" source="hybQcctw-D88qzmDJWD1-1105" target="hybQcctw-D88qzmDJWD1-1118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1105" value="Evaluación_Cumplimiento_RPF_main.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1079">
+          <mxGeometry x="142.75" y="370" width="274.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1106" value="&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Ruteamos la carpeta del fs donde está LA VIRGEN.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Fijamos los días y bloques de Evaluación.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Luego nos fijamos que en cada scipt esté configurado &quot;Opcion_ruta=2;&quot;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1105">
+          <mxGeometry x="30" y="10" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1079" source="hybQcctw-D88qzmDJWD1-1103" target="hybQcctw-D88qzmDJWD1-1105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1103" value="Variable.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1079">
+          <mxGeometry x="120" y="250" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1104" value="Nos fijamos si las constantes del generador sean los establecidos en el Procedimiento PR 21. Así como su tiempo de aporte." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1103">
+          <mxGeometry x="45" y="20" width="255" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1109" value="Carpeta La Virgen" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1079">
+          <mxGeometry x="450" y="360" width="535" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1110" value="CumplimientoRPF_LA VIRGEN" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="210" y="175" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1116" value="Información AGC" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="382" y="180" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1112" value="Lista_URS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="396" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1113" value="DataUnid_LV" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="396" y="17.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1117" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="345" y="225" width="175" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1115" value="FrecuenciasSanJuan" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="262" y="105" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1114" value="Delegaciones" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="262" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1118" value="Libro_RPF_DDMM_B.csv" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="35" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1119" value="Resultados_DDMM_B.csv" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="35" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1120" value="DDMM_CODIGO_B.png" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1109">
+          <mxGeometry x="35" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1124" value="26. Corrida de Script Modelo CDA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-992">
+          <mxGeometry x="2060" y="50" width="1030" height="710" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1125" value="&lt;div style=&quot;text-align: justify;&quot;&gt;En el servidor, abrimos el matlab y abrimos el directorio: &quot;Alessandro/Modelo Final CDA Version 7&quot;, aqui es donde revisamos los codigo en matlab en el siquiente orden:&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1124">
+          <mxGeometry x="32" y="30" width="958" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1127" target="hybQcctw-D88qzmDJWD1-1135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1127" value="Busca_Periodo.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1124">
+          <mxGeometry x="51" y="100" width="489" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1128" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;En este script nos fijamos que en la sección comentada de &quot;%filtros&quot; el blucle for recorra todos los periodos (&quot;1:3&quot;) y que en cada bloque horario el rango de segundos sea el normal (es decir, la duración normal de cada bloque horario) y no este truncado a un valor especifico.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1127">
+          <mxGeometry x="40" y="20" width="425" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1132" target="hybQcctw-D88qzmDJWD1-1147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1132" target="hybQcctw-D88qzmDJWD1-1146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1132" target="hybQcctw-D88qzmDJWD1-1145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="417" y="590" />
+              <mxPoint x="430" y="590" />
+              <mxPoint x="430" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1132" value="Evaluación_Cumplimiento_RPF_main.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1124">
+          <mxGeometry x="142.75" y="370" width="274.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1133" value="&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Ruteamos la carpeta del fs donde está CDA.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Fijamos los días y bloques de Evaluación.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Luego nos fijamos que en cada scipt esté configurado &quot;Opcion_ruta=2;&quot;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1132">
+          <mxGeometry x="30" y="10" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1124" source="hybQcctw-D88qzmDJWD1-1135" target="hybQcctw-D88qzmDJWD1-1132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1135" value="Variable.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1124">
+          <mxGeometry x="120" y="250" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1136" value="Nos fijamos si las constantes del generador sean los establecidos en el Procedimiento PR 21. Así como su tiempo de aporte." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1135">
+          <mxGeometry x="45" y="20" width="255" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1137" value="Carpeta CDA" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1124">
+          <mxGeometry x="450" y="360" width="535" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1140" value="Lista_URS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="396" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1142" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="345" y="225" width="175" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1143" value="FrecuenciasSanJuan" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="262" y="105" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1144" value="Delegaciones" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="262" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1145" value="Libro_RPF_DDMM_B.csv" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="35" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1146" value="Resultados_DDMM_B.csv" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="35" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1147" value="DDMM_CODIGO_B.png" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="35" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1148" value="CumplimientoRPF_CDA" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="192.5" y="175" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1149" value="Información AGC _CDA" style="rectangule;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="363.5" y="175" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1150" value="DataUnid_CDA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="396" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1152" value="Libro_AGC_DDMM_B.csv" style="rectangule;html=1;whiteSpace=wrap;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1137">
+          <mxGeometry x="35" y="232.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1154" value="Delegaciones" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="5220" width="7820" height="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1156" value="Carpeta Delegaciones" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="5320" width="1580" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1157" value="Carpeta Libros" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1156">
+          <mxGeometry x="90" y="60" width="1240" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1159" value="Carpeta BESS_KALLPA a FloresTG" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1157">
+          <mxGeometry x="80" y="30" width="610" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1160" value="27. Criterios" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1159">
+          <mxGeometry x="180" y="60" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-1161" value="&lt;ol&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Se copia los archivos &quot;Lista Base&quot;, &quot;Lista Media&quot; y &quot;Lista Punta&quot;. de la semana pasada de evaluación&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1160">
+          <mxGeometry x="11" y="40" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
