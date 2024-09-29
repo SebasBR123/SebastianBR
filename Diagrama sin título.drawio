@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1313" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4200" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,12 +13,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-3" value="Preparación de Insumos" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="220" y="220" width="4520" height="1860" as="geometry">
+          <mxGeometry x="220" y="220" width="2900" height="1660" as="geometry">
             <mxRectangle x="360" y="570" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X71FGkDf6fn_2zIbJ8EK-21" value="4. Primer uso de &quot;EvaluaciónPR21.xlsm&quot;" style="swimlane;whiteSpace=wrap;html=1;" parent="X71FGkDf6fn_2zIbJ8EK-3" vertex="1">
-          <mxGeometry x="340" y="600" width="370" height="100" as="geometry">
+          <mxGeometry x="575" y="610" width="370" height="100" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -69,7 +69,7 @@
           <mxGeometry x="110" y="342" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-24" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
-          <mxGeometry x="308" y="339" width="120" height="80" as="geometry" />
+          <mxGeometry x="308" y="339" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-28" value="Información AGC" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-32">
           <mxGeometry x="635" y="302.5" width="120" height="80" as="geometry" />
@@ -86,7 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-33" value="Carpeta Data Entrada Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry x="110" y="780" width="1300" height="880" as="geometry" />
+          <mxGeometry x="110" y="780" width="1300" height="790" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-82" target="hybQcctw-D88qzmDJWD1-94">
           <mxGeometry relative="1" as="geometry" />
@@ -303,6 +303,9 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-482" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-33" source="hybQcctw-D88qzmDJWD1-478" target="hybQcctw-D88qzmDJWD1-481">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-617" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-33">
+          <mxGeometry x="238" y="4" width="120" height="41" as="geometry" />
+        </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-5" target="hybQcctw-D88qzmDJWD1-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -446,12 +449,6 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-484" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-318">
           <mxGeometry x="276" y="70" width="175" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-262" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2800" y="470" as="sourcePoint" />
-            <mxPoint x="2920" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-275" target="hybQcctw-D88qzmDJWD1-279">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -509,18 +506,16 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-28" target="hybQcctw-D88qzmDJWD1-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="735" y="660" />
+              <mxPoint x="1010" y="462" />
+              <mxPoint x="1010" y="660" />
               <mxPoint x="1135" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-24" value="5. Periodos NE" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3780" y="490" width="370" height="235" as="geometry">
-            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-618" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="X71FGkDf6fn_2zIbJ8EK-3" source="hybQcctw-D88qzmDJWD1-24" target="hybQcctw-D88qzmDJWD1-617">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.0000000000002" y="780.0000000000002" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="X71FGkDf6fn_2zIbJ8EK-25" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ol&gt;&lt;li&gt;Creación de carpetas, rutear en la semana de evaluación.&lt;/li&gt;&lt;li&gt;Ejectuar macro de hoja &quot;Envio_PF&quot;.&lt;/li&gt;&lt;li&gt;Creación de Formatos BESS&lt;/li&gt;&lt;li&gt;Creación de Formato CDA&lt;/li&gt;&lt;li&gt;Creación de Formato La Virgen&lt;/li&gt;&lt;li&gt;Borrar codigos del archivo principal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X71FGkDf6fn_2zIbJ8EK-24" vertex="1">
-          <mxGeometry x="10" y="30" width="350" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
