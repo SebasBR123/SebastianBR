@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1313" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -721,10 +721,10 @@
           <mxGeometry x="54" y="35" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-655" value="Corridas Kumpliy BESS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="1930" width="2480" height="1740" as="geometry" />
+          <mxGeometry x="2150" y="1930" width="4970" height="2190" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-657" value="19. Corrida de Script Modelo Bess Ventanilla" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
-          <mxGeometry x="85" y="200" width="885" height="1540" as="geometry">
+          <mxGeometry x="85" y="200" width="885" height="1590" as="geometry">
             <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -757,7 +757,7 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-665" value="Evaluación_Cumplimiento_RPF_main1.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
           <mxGeometry x="70" y="390" width="220" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-666" value="&lt;ul&gt;&lt;li&gt;Ruteamos donde se encuentra la carpeta del bloque &quot;B&quot; de la BESS de Ventanilla.&lt;/li&gt;&lt;li&gt;Fijamos los días de Evaluación&lt;/li&gt;&lt;li&gt;La configuración debe estar en &quot;Opcion_ruta=2&quot;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-665">
+        <mxCell id="hybQcctw-D88qzmDJWD1-666" value="&lt;ul&gt;&lt;li&gt;Ruteamos donde se encuentra la carpeta del bloque &quot;B&quot; de la BESS de Ventanilla.&lt;/li&gt;&lt;li&gt;Fijamos los días de Evaluación&lt;/li&gt;&lt;li&gt;La configuración debe estar en &quot;Opcion_ruta=2&quot;&lt;/li&gt;&lt;li&gt;Corremos este Script.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-665">
           <mxGeometry x="30" y="10" width="170" height="230" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-725" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-663" target="hybQcctw-D88qzmDJWD1-661">
@@ -818,11 +818,53 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-754" value="Libro_RPF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-749">
           <mxGeometry x="40" y="71.75" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-756" value="Modelo_RPF_2018_12_estima.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
-          <mxGeometry x="315" y="1040" width="220" height="220" as="geometry" />
+        <mxCell id="hybQcctw-D88qzmDJWD1-807" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-756" target="hybQcctw-D88qzmDJWD1-804">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hybQcctw-D88qzmDJWD1-757" value="&lt;ul&gt;&lt;li&gt;Se tiene que&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-756">
+        <mxCell id="hybQcctw-D88qzmDJWD1-809" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-756" target="hybQcctw-D88qzmDJWD1-805">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-810" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-756" target="hybQcctw-D88qzmDJWD1-806">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-756" value="Modelo_RPF_2018_12_estima.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="338.5" y="1070" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-757" value="&lt;ul&gt;&lt;li&gt;Ruteamos donde se encuentra la carpeta del bloque &quot;B&quot; de la BESS de Ventanilla.&lt;/li&gt;&lt;li&gt;Fijamos los días de Evaluación&lt;/li&gt;&lt;li&gt;Corremos este script&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-756">
           <mxGeometry x="30" y="10" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-758" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-657" source="hybQcctw-D88qzmDJWD1-749" target="hybQcctw-D88qzmDJWD1-756">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-759" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-657">
+          <mxGeometry x="195" y="1310" width="525" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-760" value="Carpetas B,M,P" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-759">
+          <mxGeometry x="40" y="15" width="457" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-761" value="Data_PF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="54.5" y="166.75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-762" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="309.5" y="94.5" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-763" value="DataUnid_General" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="194.5" y="85" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-764" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="264.5" y="145" width="175" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-765" value="Libro_RPF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="44.5" y="116.75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-804" value="Resultados_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="27" y="25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-805" value="Consistencia_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="172" y="25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-806" value="DDMM_CODIGO.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-760">
+          <mxGeometry x="314" y="25" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-667" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-655" source="hybQcctw-D88qzmDJWD1-671" target="hybQcctw-D88qzmDJWD1-675">
           <mxGeometry relative="1" as="geometry" />
@@ -837,10 +879,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-671" value="&lt;b&gt;17. Se ejecutan los 7 scripts&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
-          <mxGeometry x="2100" y="440" width="230" height="60" as="geometry" />
+          <mxGeometry x="4150" y="505" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-672" value="Carpeta Resultados Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
-          <mxGeometry x="2380" y="295" width="510" height="340" as="geometry" />
+          <mxGeometry x="4430" y="360" width="510" height="340" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-673" value="Libros_AGC_DDMM_B.csv" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-672">
           <mxGeometry x="137" y="25" width="333" height="65" as="geometry" />
@@ -861,7 +903,7 @@
           <mxGeometry x="34" y="35" width="276" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-679" value="Carpeta Graficos Matlab" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
-          <mxGeometry x="2435" y="675" width="400" height="170" as="geometry" />
+          <mxGeometry x="4485" y="740" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-680" value="DDMM_CODIGO_B.png" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-679">
           <mxGeometry x="41" y="40" width="333" height="85" as="geometry" />
@@ -870,10 +912,153 @@
           <mxGeometry x="54" y="35" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-722" value="18. Completamos la información para las BESS de las Termoeléctricas" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
-          <mxGeometry x="700" y="60" width="340" height="86" as="geometry" />
+          <mxGeometry x="2290" y="50" width="340" height="86" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-723" value="Siga los paso 18.1,18.2 y 18.3 que se realizan en la carpeta BESS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-722">
           <mxGeometry x="50" y="35" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-811" value="19. Corrida de Script Modelo Bess Ventanilla" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-655">
+          <mxGeometry x="1040" y="200" width="885" height="1590" as="geometry">
+            <mxRectangle x="490" y="70" width="230" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-812" value="&lt;div style=&quot;text-align: justify;&quot;&gt;En el servidor, abrimos el matlab y abrimos el directorio: &quot;Alessandro/Modelo_2020_BESS_Ventanilla&quot;, aqui es donde reviamos los codigo en matlab en el siquiente orden:&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="32" y="30" width="668" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-813" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-814" target="hybQcctw-D88qzmDJWD1-819">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-814" value="filtro_Proceso.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="60" y="240" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-815" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;En este script nos fijamos que en la sección del sorteo esté fijado para el bloque &quot;B&quot; en la que se va a realizar la corrida&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-814">
+          <mxGeometry x="37.5" width="182.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-816" value="Variable.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="45" y="100" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-817" value="Nos fijamos si las constantes del generador sean los establecidos en el Procedimiento PR 21. Así como su tiempo de aporte." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-816">
+          <mxGeometry x="45" y="20" width="255" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-818" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-819" target="hybQcctw-D88qzmDJWD1-828">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="550" />
+              <mxPoint x="475" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-819" value="Evaluación_Cumplimiento_RPF_main1.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="70" y="390" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-820" value="&lt;ul&gt;&lt;li&gt;Ruteamos donde se encuentra la carpeta del bloque &quot;B&quot; de la BESS de Ventanilla.&lt;/li&gt;&lt;li&gt;Fijamos los días de Evaluación&lt;/li&gt;&lt;li&gt;La configuración debe estar en &quot;Opcion_ruta=2&quot;&lt;/li&gt;&lt;li&gt;Corremos este Script.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-819">
+          <mxGeometry x="30" y="10" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-821" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-816" target="hybQcctw-D88qzmDJWD1-815">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-822" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="325" y="330" width="525" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-823" value="Carpetas B,M,P" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-822">
+          <mxGeometry x="40" y="15" width="457" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-824" value="Data_PF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-823">
+          <mxGeometry x="315" y="115" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-825" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-823">
+          <mxGeometry x="315" y="19.5" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-826" value="DataUnid_General" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="hybQcctw-D88qzmDJWD1-823">
+          <mxGeometry x="200" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-827" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-823">
+          <mxGeometry x="270" y="70" width="175" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-828" value="Libro_RPF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-823">
+          <mxGeometry x="40" y="71.75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-829" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-830" target="hybQcctw-D88qzmDJWD1-838">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-830" value="19.1 Reemplazo de potencias en Libros_RPF" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="345" y="590" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-831" value="&lt;span style=&quot;text-align: justify;&quot;&gt;En el servidor 172.16.100.245 ejecutamos el código Python de la celda&amp;nbsp; &quot;Fijar Potencia Input Bess&lt;/span&gt;&lt;span style=&quot;text-align: justify;&quot;&gt;&quot;. Previamente ruteando las carpeta de los periodos y la ruta del excel de Horas de Operación (se debe fijar el numero de filas de esta en el script). Además se debe reviar las potencia efectivas de cada modo de operación en el script.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-830">
+          <mxGeometry x="9" y="50" width="231" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-832" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="180" y="810" width="525" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-833" value="Carpetas B,M,P" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-832">
+          <mxGeometry x="40" y="15" width="457" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-834" value="Data_PF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-833">
+          <mxGeometry x="315" y="115" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-835" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-833">
+          <mxGeometry x="315" y="19.5" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-836" value="DataUnid_General" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="hybQcctw-D88qzmDJWD1-833">
+          <mxGeometry x="200" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-837" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-833">
+          <mxGeometry x="270" y="70" width="175" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-838" value="Libro_RPF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-833">
+          <mxGeometry x="40" y="71.75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-839" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-842" target="hybQcctw-D88qzmDJWD1-852">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-840" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-842" target="hybQcctw-D88qzmDJWD1-853">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-841" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-842" target="hybQcctw-D88qzmDJWD1-854">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-842" value="Modelo_RPF_2018_12_estima.m" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="338.5" y="1070" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-843" value="&lt;ul&gt;&lt;li&gt;Ruteamos donde se encuentra la carpeta del bloque &quot;B&quot; de la BESS de Ventanilla.&lt;/li&gt;&lt;li&gt;Fijamos los días de Evaluación&lt;/li&gt;&lt;li&gt;Corremos este script&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hybQcctw-D88qzmDJWD1-842">
+          <mxGeometry x="30" y="10" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-844" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-811" source="hybQcctw-D88qzmDJWD1-833" target="hybQcctw-D88qzmDJWD1-842">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-845" value="Carpeta Ventanilla" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-811">
+          <mxGeometry x="195" y="1310" width="525" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-846" value="Carpetas B,M,P" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-845">
+          <mxGeometry x="40" y="15" width="457" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-847" value="Data_PF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="54.5" y="166.75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-848" value="FrecuenciasSanJuan" style="rectangule;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="309.5" y="94.5" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-849" value="DataUnid_General" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="194.5" y="85" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-850" value="Periodos_NE_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="264.5" y="145" width="175" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-851" value="Libro_RPF_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="44.5" y="116.75" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-852" value="Resultados_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="27" y="25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-853" value="Consistencia_DDMM.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="172" y="25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybQcctw-D88qzmDJWD1-854" value="DDMM_CODIGO.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-846">
+          <mxGeometry x="314" y="25" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
