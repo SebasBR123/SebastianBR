@@ -1748,7 +1748,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-1244" value="28. Formato Publicación" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5260" y="2990" width="2320" height="2130" as="geometry" />
+          <mxGeometry x="5240" y="2990" width="2320" height="2130" as="geometry" />
         </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-1246" value="Carpeta Publicación" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="hybQcctw-D88qzmDJWD1-1244" vertex="1">
           <mxGeometry x="80" y="525" width="740" height="650" as="geometry" />
@@ -1793,7 +1793,7 @@
           <mxGeometry x="13.38" y="32.5" width="176.37" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="1ixVeHTgTCihyclHa06S-16" value="Formato para modelos propios" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1244">
-          <mxGeometry x="910" y="100" width="586" height="595" as="geometry" />
+          <mxGeometry x="960" y="340" width="586" height="595" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
