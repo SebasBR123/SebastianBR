@@ -1747,6 +1747,23 @@
         <mxCell id="hybQcctw-D88qzmDJWD1-1265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="hybQcctw-D88qzmDJWD1-1156" source="hybQcctw-D88qzmDJWD1-1256" target="hybQcctw-D88qzmDJWD1-1264" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-40" value="Formato_DelegaciónSS.xlsm" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1156">
+          <mxGeometry x="200" y="2390" width="570" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-42" value="1)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-40">
+          <mxGeometry x="150" y="20" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-43" value="Limpiamos las hojas con el boton &quot;Limpar Hojas&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-42">
+          <mxGeometry x="36" y="30" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1156" source="hybQcctw-D88qzmDJWD1-1258" target="1ixVeHTgTCihyclHa06S-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1885" />
+              <mxPoint x="110" y="2740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hybQcctw-D88qzmDJWD1-1244" value="28. Formato Publicación" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5240" y="2990" width="2320" height="2130" as="geometry" />
         </mxCell>
