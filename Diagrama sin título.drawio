@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1787,13 +1787,13 @@
           <mxGeometry x="380" y="50" width="290" height="570" as="geometry" />
         </mxCell>
         <mxCell id="1ixVeHTgTCihyclHa06S-1" value="28.3 Paso 5" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-8">
-          <mxGeometry x="42" y="12.5" width="200" height="80" as="geometry" />
+          <mxGeometry x="42" y="12.5" width="200" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="1ixVeHTgTCihyclHa06S-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Actualizamos el cuadro de &quot;Leyenda&quot; con el archivo de la semana pasada.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-1">
-          <mxGeometry x="13.38" y="32.5" width="176.37" height="37.5" as="geometry" />
+        <mxCell id="1ixVeHTgTCihyclHa06S-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Actualizamos el cuadro de &quot;Leyenda&quot; con el archivo de la semana pasada y el codigo de la central de kallpa lo cambiamos por de la BESS 62069&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-1">
+          <mxGeometry x="13.38" y="32.5" width="176.37" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="1ixVeHTgTCihyclHa06S-16" value="28.4 Formato para modelos propios" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="hybQcctw-D88qzmDJWD1-1244">
-          <mxGeometry x="890" y="127.5" width="1330" height="595" as="geometry" />
+          <mxGeometry x="890" y="80" width="1330" height="642.5" as="geometry" />
         </mxCell>
         <mxCell id="1ixVeHTgTCihyclHa06S-17" value="28.4.1 Formato Modelo Propio Electroperú" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
           <mxGeometry x="30" y="50" width="420" height="150" as="geometry" />
@@ -1820,10 +1820,48 @@
           <mxGeometry x="10" y="25" width="400" height="85" as="geometry" />
         </mxCell>
         <mxCell id="1ixVeHTgTCihyclHa06S-25" value="28.4.2 Formato Modelo Propio La Vrigen" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
-          <mxGeometry x="480" y="62.5" width="420" height="107.5" as="geometry" />
+          <mxGeometry x="470" y="35" width="450" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1ixVeHTgTCihyclHa06S-26" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;Kallpa&quot; vamos a poner la ruta de la carpeta de KALLPA y los días que se van a copiar al formato publicación.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corremos el Script y el resultado del txt &quot;Kallpa_SS_AAA&quot;. lo copiamos al archivo &quot;Carga.xlsx&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-25">
+        <mxCell id="1ixVeHTgTCihyclHa06S-26" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;La Vrigen&quot; vamos a poner la ruta de la carpeta de La Virgen y los días que se van a copiar al formato publicación.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corremos el Script y el resultado del txt &quot;La Virgen_SS_AAA&quot;. lo copiamos al archivo &quot;Carga.xlsx&quot;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Revisar las potencias.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-25">
+          <mxGeometry x="10" y="35" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-27" value="28.4.2 Formato Modelo Propio 8 de Agosto" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
+          <mxGeometry x="480" y="185" width="420" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-28" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;8 de Agosto&quot; vamos a poner la ruta de la carpeta de 8 de Agosto y los días que se van a copiar al formato publicación.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corremos el Script y el resultado del txt &quot;8deagosto_SS_AAA&quot;. lo copiamos al archivo &quot;Carga.xlsx&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-27">
           <mxGeometry x="10" y="25" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-29" value="28.4.2 Formato Modelo Propio Chilca1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
+          <mxGeometry x="480" y="320" width="420" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-30" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;Chilca 1&quot; vamos a poner la ruta de la carpeta de BESS de Chilca1 y los días que se van a copiar al formato publicación.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corremos el Script y el resultado del txt &quot;chilca1_SS_AAA&quot;. lo copiamos al archivo &quot;Carga.xlsx&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-29">
+          <mxGeometry x="10" y="25" width="400" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-33" value="28.4.1 Formato Modelo Para las Revaluaciones" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
+          <mxGeometry x="480" y="462.5" width="420" height="137.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-34" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;kumplyGeneral&quot; vamos a poner la ruta de la carpeta donde se hicieron las revaluaciones y los días que se van a copiar al formato publicación.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Corremos el Script y el resultado del txt &quot;Caso General&quot;. lo copiamos al archivo &quot;Carga.xlsx&quot;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-33">
+          <mxGeometry x="10" y="35" width="400" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-35" value="28.4.2 Cargar al semanal" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
+          <mxGeometry x="950" y="240" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-36" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Vamos al script en python &quot;Copiar Formatos&quot;. y en la Celda de &quot;Cargar al Semanal1&quot; vamos a poner la ruta de la carpeta de BESS de Chilca1 y los días que se van a copiar al formato publicación.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1ixVeHTgTCihyclHa06S-35">
+          <mxGeometry x="10" y="25" width="300" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1ixVeHTgTCihyclHa06S-16" source="1ixVeHTgTCihyclHa06S-37" target="1ixVeHTgTCihyclHa06S-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-37" value="Carga.xlsx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1ixVeHTgTCihyclHa06S-16">
+          <mxGeometry x="1060" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ixVeHTgTCihyclHa06S-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hybQcctw-D88qzmDJWD1-1244" source="1ixVeHTgTCihyclHa06S-35" target="1ixVeHTgTCihyclHa06S-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1925" y="60" />
+              <mxPoint x="615" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
